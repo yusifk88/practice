@@ -1,0 +1,131 @@
+body{
+    padding: 10px;
+}
+.wrapper{
+    padding: 25px;
+    width: 30%;
+}
+.bg-blue{
+    background-color: blue;
+}
+.text-blue{
+    color: blue !important;
+}
+.text-light{
+    color:#ffffff;
+}
+.text-muted{
+    color: #cccccc;
+}
+#h{
+    font-style: italic;
+}
+.border{
+    border:1px solid #cccccc;
+}
+
+.card{
+    border-radius: 1%;
+    padding: 10px;
+    box-shadow: 0 0 8px;
+    width: 100%;
+    height: auto;
+}
+
+.card>.card-header{
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+.card-header>.card-title{
+ display: block;
+}
+
+.card>.card-body{
+    padding: 20px;
+    height: auto;
+}
+
+.card>.card-footer{
+    height: auto;
+    padding: 20px;
+}
+
+.input-label{
+    display: block;
+    margin-bottom:4px;
+    margin-top: 6px;
+    font-size: 20px;
+
+}
+
+input.input{
+    border-radius: 5%;
+    width: 100%;
+    box-shadow: 0;
+    height: 32px;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #cccccc;
+    transition: 0.2s ease-in-out;
+}
+
+input.input:hover{
+    border: 1px solid black;
+}
+input.input:focus{
+    box-shadow: 0 0 red 1px;
+    border: 2px solid red !important;
+}
+.btn{
+    padding: 15px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 0.5px solid #cccccc;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 2px;
+    border-radius: 3%;
+}
+.btn.btn-block{
+    width: 100%;
+    text-align: center;
+}
+.btn.btn-primary{
+    background-color: #1976D2 !important;
+    color: #ffffff;
+    border: 0.5px solid #1976D2 !important;
+    border-radius: 3% !important;
+
+}
+.btn.btn-primary:hover{
+    background-color: rgb(12, 84, 156) !important;
+    border: 0.5px solid rgb(12, 84, 156) !important;
+
+
+}
+
+.btn:hover{
+    background-color: #cccccc;
+    box-shadow: 0 0 10px !important;
+}
+.btn:focus{
+    background-color: gray;
+}
+
+/**
+small scrrens styling
+**/
+
+@media screen and (max-width: 768px){
+
+    body{
+        background-color: red;
+    }
+    .wrapper{
+        width: 100% !important;
+    }
+
+
+}
