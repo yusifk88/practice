@@ -120,9 +120,6 @@ small scrrens styling
 
 @media screen and (max-width: 768px){
 
-    body{
-        background-color: red;
-    }
     .wrapper{
         width: 100% !important;
     }
