@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+}
 body{
+    background-color: #c1bdba;;
     padding: 10px;
 }
 .wrapper{
-    padding: 25px;
-    width: 30%;
+    margin: auto;
+    width: 650px;
+     background-color: aliceblue;
 }
 .bg-blue{
     background-color: blue;
@@ -13,6 +19,9 @@ body{
 }
 .text-light{
     color:#ffffff;
+}
+h2{
+    font-size: 24px
 }
 .text-muted{
     color: #cccccc;
@@ -25,6 +34,7 @@ body{
 }
 
 .card{
+    background-color: #25333c;
     border-radius: 1%;
     padding: 10px;
     box-shadow: 0 0 8px;
@@ -37,9 +47,11 @@ body{
     height: auto;
     text-align: center;
     position: relative;
+    
 }
-.card-header>.card-title{
- display: block;
+.card-header> .card-title{
+    font-size: 30px;
+    color: #1ab188;
 }
 
 .card>.card-body{
@@ -57,14 +69,19 @@ body{
     margin-bottom:4px;
     margin-top: 6px;
     font-size: 20px;
+    font-family: cursive;
+    padding-top: 10px;
+    color: whitesmoke;
+    
 
 }
 
 input.input{
-    border-radius: 5%;
+    box-shadow: inset 5px 5px 3px white, inset -5px -5px 3px grey;
+    padding: 14px 16px;
+    background-color: silver;
+    border-radius: 30px;
     width: 100%;
-    box-shadow: 0;
-    height: 32px;
     padding: 10px;
     font-size: 25px;
     border: 1px solid #cccccc;
@@ -93,10 +110,13 @@ input.input:focus{
     text-align: center;
 }
 .btn.btn-primary{
-    background-color: #1976D2 !important;
+    background-color: 
+#1ab188 !important;
     color: #ffffff;
+    font-size: 24px;
     border: 0.5px solid #1976D2 !important;
-    border-radius: 3% !important;
+    border-radius: 30px !important;
+    box-shadow:  -3px -3px 12px grey;
 
 }
 .btn.btn-primary:hover{
